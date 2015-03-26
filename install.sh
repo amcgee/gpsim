@@ -1,6 +1,6 @@
 set -e
 
-apt-get install -y g++ subversion automake make libglib2.0-dev pkg-config libpopt-dev libtool flex bison
+sudo apt-get install -y g++ subversion automake make libglib2.0-dev pkg-config libpopt-dev libtool flex bison
 
 mkdir gputils
 cd gputils
