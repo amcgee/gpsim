@@ -64,6 +64,7 @@ function make_gpsim {
 	cd "$GPSIMDIR"
 	make "$@"
 	make install
+	tar czf ./gpsim.tar.gz build/*
 	cd ..
 }
 
