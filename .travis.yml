@@ -1,5 +1,5 @@
 language: c++
-compiler: gcc
+sudo: true
 install: ./install.sh
 script: ./build.sh configure && ./build.sh make
 deploy:
