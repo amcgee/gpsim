@@ -11,4 +11,4 @@ svn checkout svn://svn.code.sf.net/p/gputils/code/trunk/gputils -r 1128 .
 
 ./configure
 make
-make install
+sudo make install
