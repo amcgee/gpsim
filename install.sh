@@ -1,5 +1,8 @@
+#!/bin/bash
+
 set -e
 
+sudo apt-get update
 sudo apt-get install -y g++ subversion automake make libglib2.0-dev pkg-config libpopt-dev libtool flex bison
 
 mkdir gputils
