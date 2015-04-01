@@ -1,7 +1,7 @@
 language: c++
 sudo: true
 install: ./install.sh
-script: ./build.sh configure && ./build.sh make
+script: ./build.sh configure && ./build.sh make && ./build.sh package
 deploy:
   provider: releases
   api_key:

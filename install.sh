@@ -3,7 +3,7 @@
 set -e
 
 sudo apt-get update
-sudo apt-get install -y g++ subversion automake make libglib2.0-dev pkg-config libpopt-dev libtool flex bison
+sudo apt-get install -y g++ subversion automake make libglib2.0-dev pkg-config libpopt-dev libtool flex bison python python-dev
 
 mkdir gputils
 cd gputils
